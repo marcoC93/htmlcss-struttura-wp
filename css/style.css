@@ -1,9 +1,50 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:content-box;
+    box-sizing: border-box;
 
 }
 #wrapper {
-    
+    width: 100%;
+    margin: 10px;
+    /* height: 100px; */
+    background-color:red;
+}
+#wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header {
+    width: 100% ;
+    height: 50px;
+    background: blue;
+    clear: both;
+}
+aside.left-sidebar {
+    width: 25%;
+    height: 100%;
+    float : left;
+    background: orange;
+}
+
+main
+{
+    width: 50%;
+    height: 100%;
+    float : left;
+    background: green;
+}
+.right-sidebar {
+        width: 25%;
+        height: 100%;
+        float : right;
+        background: purple;
+}
+footer {
+
+        width: 100% ;
+        height: 50px;
+        background: yellow;
+        clear: both;
 }
