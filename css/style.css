@@ -5,9 +5,9 @@
 
 }
 #wrapper {
-    width: 100%;
-    margin: 10px;
-    /* height: 100px; */
+    width: calc (100% - 220px);
+    /* height: 1000px; */
+    margin: 20px;
     background-color:red;
 }
 #wrapper::after {
@@ -40,6 +40,14 @@ main
         height: 100%;
         float : right;
         background: purple;
+}
+.right-sidebar .top {
+    height: 50%;
+    background: pink;
+}
+.right-sidebar .bottom {
+    height: 50%;
+    background: lightpink;
 }
 footer {
 
